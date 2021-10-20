@@ -1,0 +1,248 @@
+.nav-header .brand-title {
+    max-width:140px
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.badge-completed {
+    background-color: #2f4356;
+    color: #FFF
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
+#filter1, #filter2, #filter3, #filter4, #filter5 {
+    margin-top: 10px;
+}
+
+.filter-nav {
+    margin-top: 15px;
+}
+
+.lightgallery a {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    max-height: 38px;
+    margin: 8px 0;
+    color: #000;
+}
+
+.lightgallery img {
+    float: left;
+    margin-right: 6px;
+}
+
+.lightgallery span {
+    font-size: 14px;
+    vertical-align: sub;
+    line-height: 14px;
+    position: relative;
+    bottom: -5px;
+}
+
+.lightgallery span.size {
+    font-size: 10px;
+    top: -12px;
+    position: relative;
+    color: darkred
+}
+
+.min-with {
+    min-width: 115px
+}
+
+#radius .input-group-text:first-child {
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+}
+
+.input-group > .form-control:not(:first-child), .input-group > .custom-select:not(:first-child) {
+    border-top-left-radius: 1.25rem;
+    border-bottom-left-radius: 1.25rem;
+}
+
+.input-group-prepend {
+    margin-bottom: 8px;
+}
+
+.bottom-0 {
+    margin-bottom: 0;
+}
+
+.sec .bootstrap-select {
+    max-width: 120px !important;
+}
+
+.order-form label {
+    color: #000;
+    font-weight: 500
+}
+
+.d-flex div+div {
+    justify-content: flex-start;
+    flex: 1;
+    margin: 20px 0 0 10px;
+}
+
+.piece {
+    margin-top:10px ;
+}
+
+.remove {
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.radius-right {
+    border-top-right-radius: 30px !important;
+    border-bottom-right-radius: 30px !important;
+    background: #444;
+}
+
+.radius-right a {
+    color: #FFF !important;
+}
+
+.radius-right a:hover {
+    color: #FFF !important;
+}
+
+.radius-right:hover {
+    background:  #000 !important;
+}
+
+.feature {
+    font-size: .7em;
+}
+
+.input-success > .form-control:not(:first-child), .input-group > .custom-select:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 20px;
+    text-align: right
+}
+
+[data-theme-version="light"] .input-success .input-group-text, [data-theme-version="dark"] .input-success .input-group-text {
+    font-weight: 600;
+}
+
+.input-success  {
+    margin-top: 10px;
+}
+
+
+.input-success .input-group-prepend {
+    margin-bottom: 0;
+}
+
+.d-flex h6 {
+    line-height: .4 !important;
+}
+
+#add-product .input-group {
+    flex-wrap:inherit ;
+}
+
+.mt-3 {
+    margin-top: 30px !important;
+}
+
+.mt-15 {
+    margin-top: 15px !important;
+}
+
+#printMe ul {
+    min-height: 180px;
+    padding: 30px;
+}
+
+#printMe ul li {
+    text-align: center;
+    margin-bottom: 8px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+#printMe ul li:first-child {
+    font-weight: 600
+}
+
+#printMe ul:first-child {
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 10px;
+}
+
+.mb-15 {
+    margin-bottom:10px; 
+}
+
+.invoice-content {
+    background: #FFF;
+    padding: 30px;
+    border-radius: 30px;
+    font-size: 13px;
+    padding-top: 200px;
+}
+
+.invoice-content ul li {
+    text-align: left !important
+}
+
+.invoice-content .table thead th  {
+    padding: 0;
+    background: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.invoice-content .table thead th:last-child  {
+    text-align: right
+}
+
+.invoice-content .table th, .table td {
+    padding: 15px 0;
+    border: none;
+}
+
+.invoice-content .table tbody tr:last-child td {
+    text-align: left !important;
+    font-style: italic
+}
+
+.invoice-content .table tbody tr td:nth-child(3) {
+    text-align: right;
+}
+
+.invoice-content .table tbody tr td:last-child {
+    text-align: right;
+}
+
+.invoice-content .table-responsive {
+    margin-top: 105px;
+}
+
+.invoice-content .table tbody tr td {
+    vertical-align: top;
+}
+
+.print {
+    float: right;
+    position: relative;
+    top: -35px;
+}
+
+@media print{@page {size: landscape}}
+
+
+
+
+@media (max-width:767px) {
+    .sec .bootstrap-select {
+        max-width: 120px !important;
+    }
+}
